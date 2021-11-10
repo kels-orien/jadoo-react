@@ -1,0 +1,15 @@
+.root {
+    @apply pt-6 border-red-100 pb-6 flex w-full justify-between
+}
+
+.link {
+    @apply inline-flex leading-4 font-medium duration-75 cursor-pointer px-7 
+}
+
+.button {
+    @apply inline-flex leading-4 font-medium duration-75 cursor-pointer pt-2 pb-2 pl-3 pr-3 ;
+    border: 1px solid #212832;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: -0.5rem;
+}

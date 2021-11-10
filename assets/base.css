@@ -1,0 +1,33 @@
+:root {
+    --primary: #ffffff;
+
+    --text-base: #000000;
+    --text-secondary: #000022;
+
+    --font-sans: 'Google Sans Regular', sans-serif, -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+    'Helvetica', sans-serif;
+}
+svg {
+    display: inherit;
+}
+
+@font-face {
+    font-family: "Google Sans Regular";
+    src: url("/fonts/000be6a5acfcd4e4a425e9f1bb6c80f0.woff2")format("woff2") ;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+html,
+body {
+    font-family: var(--font-sans);
+    background-color: var(--primary);
+    color: var(--text-primary);
+  }
+
+
+.volkhov {
+    font-family: 'Volkhov', serif;
+    src: url("/fonts/Volkhov-Regular")format("woff2")
+}
+

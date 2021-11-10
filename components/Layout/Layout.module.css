@@ -1,0 +1,163 @@
+.root {
+    @apply h-full mx-auto pr-10 pl-10 sm:pr-0 sm:pl-0
+}
+
+
+.font1 {
+    @apply font-medium sm:text-center ;
+    font-size: .9rem;
+}
+
+.col {
+    @apply pt-4 mt-6 cursor-pointer;
+    width: 190px;
+    height: 227px;
+    border-radius: 18px;
+}
+
+.headerText {
+    @apply text-center flex justify-center font-bold pb-8;
+    font-size: 2.5rem;
+    font-family: 'Volkhov', 'serif';
+    
+}
+
+.midText {
+    @apply pb-2 font-semibold;
+    font-size: .9rem;
+}
+.paragraphText {
+    @apply text-center pr-4 pl-4;
+    font-size: 0.8rem;
+}
+
+.col2 {
+    @apply pb-6 cursor-pointer mb-4;
+    width: 230px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+}
+
+.col3 {
+    @apply p-3;
+    width: 230px;
+    height: 250px;
+    border-radius: 18px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+}
+
+.width1{
+    @apply max-h-96 sm:max-w-full sm:text-center;
+}
+.headerText2 {
+    @apply flex justify-center font-bold pb-8;
+    font-size: 2.5rem;
+    font-family: 'Volkhov', 'serif';
+}
+
+.bookCol {
+    @apply flex justify-evenly sm:block sm:w-full;
+}
+.bookImage {
+    width: 35px;
+    height: 35px;
+    border-radius: 45px;
+}
+
+.optionsCol {
+    @apply flex justify-around;
+    width: 8rem
+}
+.commentSection {
+    @apply flex w-full justify-center pt-24 ;
+
+}
+.commentSecondary {
+    @apply flex justify-center md2:block;
+    max-width: 60rem;
+}
+
+.commentBox {
+    @apply block pb-8 w-full;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    border-radius: 8px;
+    right: 0rem;
+    position: relative;
+    overflow: hidden;
+    top: 2rem;
+}
+
+
+.subscribe {
+    @apply m-auto w-3/4  mb-4 sm:w-full;
+    background-color: #f2eefe;
+    border-radius: 129px 20px 20px 20px;
+    height: 100%;
+
+}
+.subscribeButton {
+    @apply pr-8 pl-8 pt-3 pb-3 text-xs sm:w-full;
+    background-color:  #FF946D;
+    border-radius: 6px;
+    color: white
+}
+
+.playbutton {
+    @apply p-4;
+    background-color: #DF6951;
+    border-radius: 9999px;
+}
+.textboxPrimary {
+    @apply pt-2 pb-2 pr-3 pl-3 w-auto mr-4 sm:mr-0;
+    background: white;
+    border-radius: 6px;
+}
+
+.textboxSecondary {
+    @apply self-center box-border relative p-0 transition-all m-0;
+}
+
+.textboxTertiary {
+    @apply appearance-none cursor-pointer mb-0 p-0 border-none;
+    background-color: transparent;
+}
+
+.textboxInner {
+    @apply self-center box-border flex;
+}
+
+.textboxIcon {
+    @apply self-center inline-flex filter-none cursor-pointer;
+}
+
+.input:focus {
+    @apply pl-2;
+    outline: none;
+}
+
+.iconSpan {
+    height: 1rem;
+    width: 1rem;
+}
+
+.topFont {
+    @apply font-bold uppercase;
+    color: #DF6951;
+}
+
+.largeFont {
+    @apply font-bold text-7xl;
+    font-family: 'Volkhov', 'serif';
+}
+.findButton {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    background-color: #F1A501;
+    border-radius: 6px;
+    color: #fff;
+}

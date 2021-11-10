@@ -1,0 +1,7 @@
+.root {
+    @apply absolute md2:block overflow-hidden hidden bg-white top-0 mt-16 left-0 right-0 w-full;
+    transform: translateY(0px) translateX(0px);
+    transition: transform 400ms ease 0s;
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "title": "Jadoo | Travel Destinations",
+  "titleTemplate": "%s - Jadoo Travel",
+  "description": "Jadoo Travel -> https://https://jadoo-react.vercel.app",
+  "twitter": {
+    "handle": "@jadoo_travel",
+    "site": "@jadoo",
+    "cardType": "summary_large_image"
+  }
+}
